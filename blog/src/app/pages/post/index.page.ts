@@ -12,7 +12,7 @@ import { Post } from '../../models/post';
     <ul>
       @for (post of posts; track $index) {
       <li>
-        <a [routerLink]="['/blog', post.slug]">{{ post.attributes.title }}</a>
+        <a [routerLink]="['/post', post.slug]">{{ post.attributes.title }}</a>
       </li>
       }
     </ul>
