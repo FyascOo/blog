@@ -1,8 +1,11 @@
 /// <reference types="vitest" />
 
 import analog from '@analogjs/platform';
-import { defineConfig, Plugin, splitVendorChunkPlugin } from 'vite';
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
+import { defineConfig, splitVendorChunkPlugin } from 'vite';
+
+import * as fs from 'fs';
+const posts = fs.readdirSync('./src/content');
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -12,7 +15,24 @@ export default defineConfig(({ mode }) => {
     build: {
       target: ['es2020'],
     },
-    plugins: [analog(), nxViteTsPaths(), splitVendorChunkPlugin()],
+    plugins: [
+      analog({
+        static: true,
+        prerender: {
+          routes: async () => [
+            '/',
+            '/about',
+            '/post',
+            ...posts.map((post) => `/blog/posts/${post.replace('.md', '')}`),
+          ],
+          sitemap: {
+            host: 'https://alan.choufa.fr/',
+          },
+        },
+      }),
+      nxViteTsPaths(),
+      splitVendorChunkPlugin(),
+    ],
     test: {
       globals: true,
       environment: 'jsdom',
