@@ -1,6 +1,9 @@
-import { RouteMeta } from '@analogjs/router';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
-export const routeMeta: RouteMeta = {
-  redirectTo: '',
-  pathMatch: 'full',
-};
+@Component({
+  standalone: true,
+  imports: [RouterOutlet],
+  template: ` <p>blog page works!!</p> `,
+})
+export default class IndexPage {}
