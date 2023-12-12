@@ -1,12 +1,12 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'choufa-ui',
+  selector: 'ui-side-nav',
   standalone: true,
   imports: [CommonModule],
-  template: `<p>ui works!</p>`,
+  template: `<p>side-nav works!</p>`,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class UiComponent {}
+export class SideNavUIComponent {}

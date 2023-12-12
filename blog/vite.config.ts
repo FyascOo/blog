@@ -5,7 +5,11 @@ import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 import { defineConfig, splitVendorChunkPlugin } from 'vite';
 
 import * as fs from 'fs';
-const posts = fs.readdirSync('./src/content');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+
+const dirPath = path.resolve(__dirname, './src/content');
+const posts = fs.readdirSync(dirPath);
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
