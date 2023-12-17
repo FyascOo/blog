@@ -11,7 +11,7 @@ import { HeaderUIComponent } from '@choufa/ui';
   },
   template: `
     <img
-      class="rounded-full border w-2/6 mb-3"
+      class="rounded-full border border-gray-900 shadow-2xl shadow-white w-2/6 mb-6"
       src="/assets/alan_profil.png"
       alt="user image"
     />
