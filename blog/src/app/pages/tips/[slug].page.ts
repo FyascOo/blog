@@ -5,6 +5,7 @@ import { SideNavUIComponent } from '@choufa/ui';
 import { Tips } from '../../models/tips';
 
 @Component({
+  selector: 'blog-tips',
   standalone: true,
   imports: [MarkdownComponent, NgIf, AsyncPipe, SideNavUIComponent],
   host: {
@@ -13,8 +14,10 @@ import { Tips } from '../../models/tips';
   template: `
     <ui-side-nav />
     @if (tip$ | async; as tip) {
-    <h2>{{ tip.attributes.title }}</h2>
-    <analog-markdown [content]="tip.content" />
+    <div class="flex flex-col p-2">
+      <h2>{{ tip.attributes.title }}</h2>
+      <analog-markdown [content]="tip.content" />
+    </div>
     }
   `,
 })

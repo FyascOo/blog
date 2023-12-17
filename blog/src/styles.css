@@ -1,3 +1,4 @@
+@import './themes/prism-atom-dark.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,3 +8,18 @@ body {
   display: block;
   height: 100%;
 }
+
+li {
+  @apply list-disc;
+  @apply list-inside;
+}
+
+/* article a {
+  @apply bg-blue-400;
+  @apply underline;
+}
+
+.analog-markdown-route:has(.about) {
+  display: flex;
+  justify-content: center;
+} */
