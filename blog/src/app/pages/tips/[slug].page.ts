@@ -5,7 +5,7 @@ import { SideNavUIComponent } from '@choufa/ui';
 import { Tips } from '../../models/tips';
 
 @Component({
-  selector: 'blog-tips',
+  selector: 'blog-slug-tips',
   standalone: true,
   imports: [MarkdownComponent, NgIf, AsyncPipe, SideNavUIComponent],
   host: {

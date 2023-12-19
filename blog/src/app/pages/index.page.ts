@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderUIComponent } from '@choufa/ui';
 
 @Component({
-  selector: 'choufa-about',
+  selector: 'blog-about',
   standalone: true,
   imports: [RouterOutlet, HeaderUIComponent],
   host: {
@@ -11,7 +11,7 @@ import { HeaderUIComponent } from '@choufa/ui';
   },
   template: `
     <img
-      class="rounded-full border border-gray-900 shadow-2xl shadow-white w-2/6 mb-6"
+      class="rounded-full border border-gray-900 w-2/6 mb-6"
       src="/assets/alan_profil.png"
       alt="user image"
     />

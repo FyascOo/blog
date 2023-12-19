@@ -1,11 +1,10 @@
-import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'ui-header',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [RouterLink, RouterLinkActive],
   template: `
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
       <div
@@ -22,10 +21,10 @@ import { RouterLink } from '@angular/router';
           >
             <li>
               <a
-                [routerLink]="['/tips']"
                 class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Tips</a
               >
+                Tips
+              </a>
             </li>
             <li>
               <a
@@ -47,5 +46,12 @@ import { RouterLink } from '@angular/router';
     </nav>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styles: [
+    `
+      a {
+        text-decoration: none;
+      }
+    `,
+  ],
 })
 export class HeaderUIComponent {}
