@@ -12,7 +12,7 @@ import { Tips } from '../../models/tips';
     class: 'w-full flex',
   },
   template: `
-    <ui-side-nav />
+    <ui-side-nav [slugs]="slugs" />
     @if (tip$ | async; as tip) {
     <div class="flex flex-col p-2">
       <h2>{{ tip.attributes.title }}</h2>
@@ -23,4 +23,5 @@ import { Tips } from '../../models/tips';
 })
 export default class SlugTipsPage {
   tip$ = injectContent<Tips>();
+  slugs = ['vulgarisateurs', 'sites-pratiques', 'vs-code'];
 }

@@ -12,7 +12,7 @@ import { Post } from '../../models/post';
     class: 'w-full flex',
   },
   template: `
-    <ui-side-nav />
+    <ui-side-nav [slugs]="slugs" />
     @if (post$ | async; as post) {
     <div class="flex flex-col p-2">
       <h2>{{ post.attributes.title }}</h2>
@@ -23,4 +23,5 @@ import { Post } from '../../models/post';
 })
 export default class SlugPostsPage {
   post$ = injectContent<Post>();
+  slugs = ['metier-web', 'demystification'];
 }
