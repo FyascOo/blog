@@ -6,7 +6,7 @@ slug: vulgarisateurs
 
 <br/>
 
-Il est est très intéressant et.. facile de regarder des vidéos youtube. En promouvant ces chaînes, je ne souhaite pas inciter et à tomber dans le `tutoriel hell` mais simplement mettre en avant du contenu de qualité qui permet de monter en compétence. La manière la plus efficace d'apprendre reste de mettre la main dans le code.
+Il est très intéressant et.. facile de regarder des vidéos youtube. En promouvant ces chaînes, je ne souhaite pas inciter à tomber dans le `tutoriel hell` mais simplement mettre en avant du contenu de qualité qui permet de monter en compétence. **La manière la plus efficace d'apprendre reste de mettre la main dans le code.**
 
 ## Decoded frontend
 
@@ -22,13 +22,13 @@ Si vous voulez parler réactivité et bonne pratique vous êtes à la bonne port
 
 ## Arthur Lannelucq
 
-Du contenu en français de qualité. Il est important de maitrisé l'anglais et de s'accoutumer un maximum mais.. bon.. de temps en temps..
+Du contenu en français de qualité. Il est important de maitriser l'anglais et de s'accoutumer un maximum mais.. bon.. de temps en temps..
 
 [![Arthur Lannelucq](https://img.youtube.com/vi/npyEyUZxoIw/0.jpg)](https://www.youtube.com/watch?v=npyEyUZxoIw)
 
 ## Grafikart
 
-On ne le présente plus, je pense, mais il est normal qu'on le retrouve ici. Après le site du zéro a.k.a .openclassroom, c'est la personne qui a appris le plus les fondamentaux aux français ! Un grand merci à Jonathan Boyer
+On ne le présente plus, je pense, mais il est normal qu'on le retrouve ici. Après le site du zéro a.k.a .openclassroom, c'est la personne qui a appris le plus de fondamentaux aux français ! Un grand merci à Jonathan Boyer
 
 [![Grafikart](https://img.youtube.com/vi/hhe6Xb4Em5U/0.jpg)](https://www.youtube.com/watch?v=hhe6Xb4Em5U)
 
