@@ -6,7 +6,7 @@ slug: vulgarisateur
 
 <br/>
 
-Il est est très intéressant et.. facile de regarder des vidéos youtube. En promouvant ces chaînes, je ne souhaite pas inciter à tomber le `tutoriel hell` mais simplement mettre en vant du contenu de qualité qui permet de monter en compétence. La manière la plus efficace d'apprendre reste de mettre la main dans le code.
+Il est est très intéressant et.. facile de regarder des vidéos youtube. En promouvant ces chaînes, je ne souhaite pas inciter et à tomber dans le `tutoriel hell` mais simplement mettre en avant du contenu de qualité qui permet de monter en compétence. La manière la plus efficace d'apprendre reste de mettre la main dans le code.
 
 ## Decoded frontend
 

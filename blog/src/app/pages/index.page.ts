@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderUIComponent } from '@choufa/ui';
 
 @Component({
-  selector: 'blog-about',
+  selector: 'blog-index',
   standalone: true,
   imports: [RouterOutlet, HeaderUIComponent],
   host: {
