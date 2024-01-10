@@ -1,7 +1,7 @@
 ---
-title: Vulgarisateur
-description: 'Vulgarisateur contenu web'
-slug: vulgarisateur
+title: Vulgarisateurs
+description: 'Vulgarisateurs contenu web'
+slug: vulgarisateurs
 ---
 
 <br/>

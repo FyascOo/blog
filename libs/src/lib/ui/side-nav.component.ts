@@ -13,20 +13,20 @@ import { RouterLink } from '@angular/router';
     >
       <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
         <a
-          href="#"
+          routerLink="/tips/vulgarisateurs"
           class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
         >
           <span class="ms-3">Vulgarisateurs</span>
         </a>
 
         <a
-          href="#"
+          routerLink="/tips/sites-pratiques"
           class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
         >
           <span class="ms-3">Site pratique</span>
         </a>
         <a
-          href="#"
+          routerLink="/tips/vs-code"
           class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
         >
           <span class="ms-3">VS Code</span>
