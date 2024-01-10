@@ -1,7 +1,7 @@
 ---
-title: Les métier du web
-description: 'Métier du web'
-slug: metier-web
+title: Test de multiplication
+description: 'Site classe à deux test multiplication'
+slug: test-multiplication
 ---
 
 <br/>
@@ -11,6 +11,7 @@ WORK IN PROGRESS
 ```
 
 <br/>
+
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
     <p>Amet voluptates tempore accusamus nobis eligendi unde fugiat? Est, aliquam.</p>
     <p>Officia, consectetur voluptates. Fugit suscipit sed minus cum sint assumenda?</p>

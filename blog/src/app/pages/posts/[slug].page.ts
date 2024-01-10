@@ -23,5 +23,8 @@ import { Post } from '../../models/post';
 })
 export default class SlugPostsPage {
   post$ = injectContent<Post>();
-  slugs = ['metier-web', 'demystification'];
+  slugs = [
+    { lien: '/posts/metier-web', title: 'Métier web' },
+    { lien: '/posts/demystification', title: 'Démystification' },
+  ];
 }
