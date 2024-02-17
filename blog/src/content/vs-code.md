@@ -140,7 +140,7 @@ Je ne compte pas le nombre de fois où j'ai du retourner sur d'ancien projet. Re
   "arrowParens": "avoid",
   "trailingComma": "es5",
   "bracketSameLine": true,
-  "printWidth": 140,
+  "printWidth": 120,
   "htmlWhitespaceSensitivity": "ignore"
 }
 ```

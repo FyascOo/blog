@@ -16,7 +16,20 @@ export default defineConfig(({ mode }) => {
       analog({
         static: true,
         prerender: {
-          routes: ['/', '/tips'],
+          routes: [
+            '/',
+            '/tips',
+            '/tips/vulgarisateurs',
+            '/tips/sites-pratiques',
+            '/tips/vs-code',
+            '/posts',
+            '/posts/metier-web',
+            '/posts/demystification',
+            '/portfolio',
+            '/portfolio/test-multiplication',
+            '/portfolio/metronome',
+            '/portfolio/boulier',
+          ],
           sitemap: {
             host: 'https://alan.choufa.fr/',
           },

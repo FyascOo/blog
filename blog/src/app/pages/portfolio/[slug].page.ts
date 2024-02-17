@@ -23,5 +23,9 @@ import { Post } from '../../models/post';
 })
 export default class SlugPortfolioPage {
   post$ = injectContent<Post>();
-  slugs = [{ lien: '/portfolio/test-multiplication', title: 'Test multiplication' }];
+  slugs = [
+    { lien: '/portfolio/test-multiplication', title: 'Test multiplication' },
+    { lien: '/portfolio/metronome', title: 'Metronome Circulaire' },
+    { lien: '/portfolio/boulier', title: 'Boulier' },
+  ];
 }
