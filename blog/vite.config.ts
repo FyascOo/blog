@@ -53,5 +53,10 @@ export default defineConfig(({ mode }) => {
     optimizeDeps: {
       include: ['@angular/common'],
     },
+    server: {
+      fs: {
+        allow: ['.'],
+      },
+    },
   };
 });
