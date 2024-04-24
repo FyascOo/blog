@@ -6,7 +6,7 @@ slug: vs-code
 
 <br/>
 
-Je ne compte pas le nombre de fois où j'ai du retourner sur d'ancien projet. Refaire mes config. Changer de poste devient une corver.. Et bam voici mes indispensables lorsque je me met sur un nouveau poste ou que j'initie un projet
+Je ne compte pas le nombre de fois où j'ai du retourner sur d'anciens projets. Refaire mes configs, changer de poste devient une corvée.. Et bam ! Voici mes indispensables lorsque je me mets sur un nouveau poste ou que j'initie un projet :
 
 ## Config
 

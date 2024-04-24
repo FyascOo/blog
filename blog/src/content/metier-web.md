@@ -1,5 +1,5 @@
 ---
-title: Les métier du web
+title: Les métiers du web
 description: 'Métier du web'
 slug: metier-web
 ---
@@ -11,15 +11,10 @@ WORK IN PROGRESS
 ```
 
 <br/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
-    <p>Amet voluptates tempore accusamus nobis eligendi unde fugiat? Est, aliquam.</p>
-    <p>Officia, consectetur voluptates. Fugit suscipit sed minus cum sint assumenda?</p>
-    <p>Totam minus et dicta atque excepturi autem animi beatae nemo!</p>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
-    <p>Amet voluptates tempore accusamus nobis eligendi unde fugiat? Est, aliquam.</p>
-    <p>Officia, consectetur voluptates. Fugit suscipit sed minus cum sint assumenda?</p>
-    <p>Totam minus et dicta atque excepturi autem animi beatae nemo!</p>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
-    <p>Amet voluptates tempore accusamus nobis eligendi unde fugiat? Est, aliquam.</p>
-    <p>Officia, consectetur voluptates. Fugit suscipit sed minus cum sint assumenda?</p>
-    <p>Totam minus et dicta atque excepturi autem animi beatae nemo!</p>
+
+<p>Je ne vais pas parler de tous les métiers même si je vais essayer de faire la liste la plus exhaustive à mon niveau de connaissance. </p>
+
+# Un métier pas que pour les passionée
+
+<p>Drôle de permier chapitre pour parler des métiers du web.. Effectivement ! Lors de mes études c'est cette impression qu'être développeur était réserver à des passionées qui bidoullait leur calculette ou qui avait déjà créer plusieurs site web pour vendre des kamas (hum, je m'écarte un peu mais vous voyez l'idée).</p>
+<p></p>
